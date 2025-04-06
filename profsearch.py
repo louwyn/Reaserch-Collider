@@ -7,10 +7,6 @@ from langchain.docstore.document import Document
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain_community.vectorstores import Chroma
 import os
-
-# Set your OpenAI API key
-apikey = "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"
-
 # --- Resource Loading Function ---
 # Cache the resource loading to avoid reloading on every run.
 @st.cache_resource
