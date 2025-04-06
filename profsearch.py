@@ -8,9 +8,6 @@ from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain_community.vectorstores import Chroma
 import os
 
-# Set your OpenAI API key
-apikey = "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"
-
 # --- Resource Loading Function ---
 # Cache the resource loading to avoid reloading on every run.
 @st.cache_resource
